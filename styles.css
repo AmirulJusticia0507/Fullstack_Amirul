@@ -1,0 +1,50 @@
+/* Add your CSS styles here */
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prelander-info {
+    display: flex;
+    align-items: center;
+}
+
+.info-text {
+    margin-left: 20px;
+    /* Tambahkan margin kiri agar teks berada di sebelah gambar */
+    font-weight: bold;
+    color: #000;
+}
+
+.prelander-img {
+    width: 350px;
+    /* Sama dengan lebar gambar */
+    height: auto;
+}
+
+.btn-group {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
